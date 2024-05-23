@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+.phonecase {
+  width: 400px;
+  height: 500px;
+  outline: 2px solid black;
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: black;
+}
+
+.camera {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 10px 0;
+}
+
+.screen {
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  padding: 10px;
+}
+
+label {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+}
+.button-wrap {
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  width: 90px;
+  font-size: 1.3rem;
+}
+
+input {
+  margin: 0 auto;
+  display: block;
+  font-size: 1.5rem;
+  width: 80%;
+  border-radius: 5px;
+  padding: 2px;
+}
